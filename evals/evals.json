@@ -1,0 +1,112 @@
+{
+  "skill_name": "bio-mechanism-figures",
+  "evals": [
+    {
+      "id": 1,
+      "name": "neurovascular-delivery",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nA: three equally sized coronal brain schematics labeled IS, ICH, SAH; ischemic occlusion/tissue, intraparenchymal hematoma and surface/sulcal subarachnoid blood must differ. B: dominant brain capillary cutaway, blood and red cells inside; adjoining endothelium with tight junction and vesicular transcytosis; basement membrane, abluminal pericyte, astrocyte endfeet outside; one microglial cell and neuron below. Short labels Blood, Endothelium, Tight junction, Transcytosis, Pericyte, Astrocyte, Microglia, Neuron. Four separate numbered delivery tasks: 1 Binding on luminal cell surface away from junction, 2 Transport through endothelium in vesicles, 3 Dispersion outside vessel, 4 Uptake into neuronal cytoplasmic vesicle, never nucleus. Short dashed conceptual connectors do not imply one universally successful route. Compact matching legend. C: small icon row Hypoxia, Oxidative stress, Inflammation, Repair, qualitative not fixed timeline.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "IS/ICH/SAH blood location is distinct",
+        "pericyte and endfeet are abluminal",
+        "transcytosis does not form a junction hole",
+        "uptake endpoint is cytoplasm, not nucleus",
+        "four delivery tasks remain distinct",
+        "All anatomical leaders point to the correct named cell/layer",
+        "All readable chemical/icon text is black or white"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "iron-and-lipid-defenses",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nThree panels. A left dominant cell: Tf-Fe(III) binds TfR and enters Endosome; DMT1 releases iron to Labile iron; separate arrows to Ferritin and FPN Fe(II) export. Ferritin -> NCOA4 -> Lysosome -> labile pool. Lower sequence Red blood cell -> Hb -> heme -> HO-1 -> labile pool. DFO / DFP / DFX drugs and pool feed a generic chelated Fe(III) product (not one shared bond-level chemical structure; drug-specific ratios belong in caption). B upper right membrane: ACSL4 / LPCAT3 helps PUFA-PL substrate, available iron supports PUFA-PL -> PL-OOH; Lipid radical chain and Fer-1 / Lip-1 T inhibition. C lower right four PARALLEL defenses: GPX4 + GSH reduces membrane PL-OOH to PL-OH; plasma-membrane cytoplasmic-face FSP1 converts CoQ to CoQH2 and suppresses chain radicals; DHODH at mitochondrial inner membrane with CoQ/CoQH2 and label Context-dependent; GCH1 -> BH4 with Basic mechanism. No serial pathway connecting all defenses, no clinical benefit claim.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "Lysosome independently feeds labile iron",
+        "HO-1 feeds the pool rather than emptying it",
+        "oxidized PL-OOH and reduced PL-OH differ",
+        "four defenses are parallel",
+        "FSP1 plasma interface and DHODH mitochondrial inner membrane differ"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "intervention-and-cargo-map",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nFive open A-E vignettes, no added panel boxes. A DFO released from liposome, one continuous ligand surrounds ONE Fe(III), DFO : Fe = 1 : 1, Chelation. B Fe(II) enters SrHCF lattice, Ion capture. C Fer-1 / Lip-1 lipid-associated vesicle releases agents to inhibit membrane Lipid radicals by a T-bar. D separate RNA and protein vesicles deliver to CYTOPLASM; GPX4 and FSP1/CoQ act at membrane surface, Endogenous defense; not a single proven all-cargo product. E Hp / IL-10 plasmid delivery enters eukaryotic nucleus: DNA -> mRNA inside nucleus, mRNA export, parallel separate Hp and IL-10 products in cytoplasm; secreted Hp binds Hb to form Hp-Hb, Hb handling. No common protein precursor and IL-10 is not produced from Hp. Small footer Other strategies: Thrombolysis, Repair. Routes are conceptual, not efficacy rankings.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "one continuous DFO binds one Fe",
+        "radical inhibition has correct T endpoint",
+        "GPX4/FSP1 are surface-associated",
+        "transcription inside nucleus and translation outside",
+        "separate Hp/IL-10 branches and Hp-Hb binding direction",
+        "Lipophilic cargo is lipid-associated rather than floating in vesicle water",
+        "Membrane defenses face the depicted cytoplasm"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "chelator-forms-and-assemblies",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nThree horizontal A-C regions. A one continuous DFO motif, distinct Terminal NH2 / H2N, exactly 3 hydroxamates supplying six O sites to ONE Fe(III); DFO : Fe = 1 : 1; conceptual motif not a full chemical formula. B Aqueous loading (free DFO in liposome water), Terminal conjugation (ONE terminal PEG-DFO, not repeated grafts), Scaffold display (Nanogel; GC-DFO shell with PFC core), Lipid assembly (DFOsome with drug-bearing head linked to hydrophobic tails, enlarged amphiphile inset). Do not infer the PFC core phase. C PM-DFO direct platelet-membrane aqueous vesicle and Platesome-DFO platelet-coated lipid vesicle both with aqueous DFO, neither solid polymer core. Separate Composite: CeO2-related core, DFO and Anti-C5a aptamer INSIDE neutrophil-like membrane; RVG29 outside. Short leaders identifying platelet membrane glycoprotein, platelet membrane coat, lipid bilayer, cargos, RVG29, CeO2. No precise unverified lipid chemistry or clearance loop.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "one Fe with six O from three sites",
+        "single terminal PEG-DFO",
+        "aqueous carriers have no solid polymer core",
+        "amphiphile head and tails stay linked",
+        "DFO/Anti-C5a internal and RVG29 external",
+        "No unverified skeletal bonds or extra/detached donor atoms are invented"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "six-representative-materials",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nSix A-F panels in 3x2 grid, compact black frames and English labels. A SrHCF lattice takes Fe(II) and releases Sr(II); separate rHF cage handles ROS. B Lip-1 released from GluAC4A host inhibits Lipid peroxidation by T-bar, Pre-MCAO: -1 h; separate RVG29/Fer-1 lipid particle. C Local hippocampal needle BSA-SeNPs; Tat SelPep selenium peptide separate; GPX4 peripheral at membrane, not a transmembrane protein. D miR-760-3p T inhibits CHAC1; miR-124-3p T inhibits NCOA4 in a dashed blue Cells only boundary with culture dish; third line FXR2 T ATF3 T SLC7A11 with microglia, BOTH inhibitions. E SAH: immediate IA, external Tet1-FSP1 and lipid-associated CoQ10 in liposome -> Neuronal membrane defense. F ICH: IV 6/24/48 h; Hi plasmid vesicle enters microglial nucleus, DNA -> mRNA there, export to cytoplasm; mRNA branches DIRECTLY and separately to Hp and IL-10. Hp and Hb are distinct inputs with arrows INTO Hp-Hb complex. IL-10 separate secreted product, not Hp-derived. These model/timing examples are distinct, not comparative efficacy or general therapeutic windows.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "all six panels retain distinct design identities",
+        "Cell-only boundary is not animal efficacy",
+        "FXR2-ATF3-SLC7A11 has two T-bars",
+        "GPX4 is peripheral and Tet1-FSP1 external",
+        "Hp and IL-10 independently expressed, both binding inputs enter complex",
+        "Cells-only boundary is scoped to the miR-124-3p/NCOA4 row only"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "fields-gas-and-observation",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nSix A-F panels 3x2. A GC-DFO shell and PFP core with Phase to verify; independent Ultrasound Liquid -> Gas example, not automatically vaporizing that GC-DFO platform. B FUS + blood-vessel bubbles and Acoustic feedback solid control loop, label Healthy brain; separate dashed Stroke validation link to Iron pool cell. C separate Xe: therapeutic gas and SF6 + FTY720 carrier examples; below blood/tissue interface ZrSi2 particle remains IN vascular lumen near endothelial blood side; H2 alone crosses wall into Brain tissue. D three independent observation rows: Pathology with brain/MRI, Carrier / label with radiolabeled particle/PET, Active drug chelation with Fe. E SPION + gradient in flowing blood, ONE net magnetic attraction arrow carrier -> magnet, separate Blood flow arrow; lower Static field + FUS, Reduced cavitation, Healthy brain physical example. F Research direction: dashed brain / iron-cell / syringe loop, Start / Adjust / Stop, proposal not clinical closed-loop proof.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "independent gas and phase contexts retained",
+        "healthy-brain feedback and stroke validation distinct",
+        "only H2 crosses wall, not source particle",
+        "pathology, carrier label and active drug not equated",
+        "magnetic attraction arrow points toward magnet",
+        "proposal loop stays dashed and labeled research"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "translational-validation",
+      "prompt": "Create an actual biomedical concept illustration, landscape 3:2. White background; concise, attractive but simple flat 2D vector-like BioRender-inspired graphic, recognizable cells/membranes/molecules, restrained soft colors and local shading, black English labels (white only in black numbered badges), short labels, no glossy 3D, no long paragraphs, logos, title banner or fabricated measurements. Keep required scientific content while avoiding decorative complexity. These are supplied factual constraints for a design test, not new experimental results.\n\nRequired scientific content:\nFive numbered stations plus separate bottom evidence row. 1 Define target: IS/ICH/SAH brain schematics with disease-specific inset lesions and cell Iron pool. 2 Active exposure: vessel with carriers, separate released active drug; Carrier measurement and Active drug measurement tubes distinct. 3 Timing & modules: qualitative Event and injections timeline; Field OFF/ON; With modules / Without modules / Control material with matched dose; outcomes Neuron health, Debris handling, Myelin integrity are to be measured, not established benefits. 4 Manufacture & workflow: Reproducible formulation -> Potency assay -> Storage stability -> Feasible administration. 5 Material choice: Retain, Simplify, Adjust. COMPLETE main route 1->2->3->4->5, with ONLY ONE feedback 5->1, all these routes DASHED; label Proposed validation pathway. Bottom independent categories Human observation, Free DFO, Preclinical nano, Registered studies. Free DFO has i-DEF and three readable lines EXACTLY: 90 d primary: futility criterion met / 180 d secondary: signal / Post hoc: exploratory. No efficacy/approval upgrade, invented effect/dose or extra feedback.",
+      "expected_output": "Actual concept PNG with specified mechanisms, short black English labels, restrained readable style and provenance.",
+      "files": [],
+      "assertions": [
+        "complete five-station route",
+        "one and only one 5-to-1 feedback",
+        "proposed path stays dashed",
+        "carrier and active drug measurements distinct",
+        "matched-dose labels separate",
+        "clinical primary/secondary/exploratory hierarchy unchanged"
+      ]
+    }
+  ],
+  "evaluation_note": "Expanded full-contract checks after exploratory visual findings; original first-round criteria preserved in workspace and v1 snapshot."
+}

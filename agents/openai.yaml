@@ -1,0 +1,4 @@
+interface:
+  display_name: "生物分子与细胞机制绘图"
+  short_description: "绘制生物分子与细胞机制图，核对区室、箭头与标签并保留图源"
+  default_prompt: "使用 $bio-mechanism-figures，根据提供的科学依据绘制简洁清晰的分子与细胞机制图，实际检查并交付成图和图源。"
