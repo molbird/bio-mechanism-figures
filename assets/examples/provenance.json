@@ -1,0 +1,22 @@
+{
+  "generation_tool": "image_gen.imagegen",
+  "examples": [
+    {
+      "file": "mitophagy.png",
+      "title_en": "Mitophagy",
+      "title_zh": "线粒体自噬机制",
+      "sha256": "dcb0a74ce0133d5b44c9799eacd430aa21de096376ba5f00daf8a54e31165b7f",
+      "source_sha256": "dcb0a74ce0133d5b44c9799eacd430aa21de096376ba5f00daf8a54e31165b7f",
+      "kind": "AI-generated concept illustration with targeted repairs"
+    },
+    {
+      "file": "dfo-nanodelivery.png",
+      "title_en": "DFO coordination and nanodelivery",
+      "title_zh": "DFO 配位与纳米递送",
+      "sha256": "10872919253186b9c579365335724a7975b69bf77a7509d80055fb4b1eb37cfe",
+      "source_sha256": "10872919253186b9c579365335724a7975b69bf77a7509d80055fb4b1eb37cfe",
+      "kind": "AI-generated concept illustration with targeted repairs"
+    }
+  ],
+  "note": "Selected from earlier generation-and-repair evaluation; original image bytes and panel markers retained."
+}
