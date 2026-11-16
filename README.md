@@ -6,15 +6,21 @@
 
 ## 示例图 · Examples
 
-两张实际生成并返修的概念示意图，分别展示细胞机制和分子递送设计。图像来自此前评测，面板标记沿用生成时的版本。
+三张概念示意图，依次展示细胞机制、铁稳态与脂质防御、分子递送设计。面板标记沿用各图原有版本。
 
-Two generated-and-refined concept illustrations showcasing cellular mechanisms and molecular delivery design. These examples retain the panel markers used during the earlier evaluation.
+Three concept illustrations showcasing cellular mechanisms, iron homeostasis and lipid defenses, and molecular delivery design, in that order. Each example retains its original panel markers.
 
 ### 线粒体自噬机制 · Mitophagy
 
 ![线粒体自噬机制示例：线粒体膜结构、分子招募与自噬捕获 / Mitophagy example showing mitochondrial membranes, molecular recruitment and autophagic capture](assets/examples/mitophagy.png)
 
 细胞器膜结构、分子招募和自噬捕获过程。 / Mitochondrial membranes, molecular recruitment and autophagic capture.
+
+### 铁稳态与脂质防御 · Iron homeostasis and lipid defenses
+
+![铁稳态与脂质防御示例：铁的摄取、储存、回收及膜脂防御 / Iron homeostasis and lipid defenses example showing iron uptake, storage, recycling and membrane lipid defenses](assets/examples/iron-homeostasis-lipid-defenses.png)
+
+铁的摄取、储存与回收，以及膜脂氧化和并行防御通路。 / Iron uptake, storage and recycling, membrane lipid oxidation and parallel defense pathways.
 
 ### DFO 配位与纳米递送 · DFO coordination and nanodelivery
 
@@ -99,7 +105,7 @@ python -m unittest discover -s scripts -p test_scripts.py -v
 
 现有 21 项脚本测试覆盖标签与区室保留、样式覆盖、无效关系拒绝、版本保护、路径边界、原始请求保存、哈希绑定及未复核状态等行为。`evals/evals.json` 包含七类机制图测试任务，供具备实际绘图工具的宿主继续评测。
 
-前期图像评估实际生成了 19 个版本，包含七个主题、三个首轮对照及局部返修和新机制测试。结果用于改进规则，不表示每次首次生成都会优于普通提示词。后增的纯大写小图标记规则已做提示词与脚本检查，没有为该项更新重新生成全部图片。本仓库展示其中两张生成示例；私人评审工作区和论文材料未包含在内。
+前期图像评估实际生成了 19 个版本，包含七个主题、三个首轮对照及局部返修和新机制测试。结果用于改进规则，不表示每次首次生成都会优于普通提示词。后增的纯大写小图标记规则已做提示词与脚本检查，没有为该项更新重新生成全部图片。本仓库展示三张选定示例；私人评审工作区和论文材料未包含在内。
 
 ### 文件导航
 
@@ -186,7 +192,7 @@ python -m unittest discover -s scripts -p test_scripts.py -v
 
 The 21 helper tests cover label and compartment preservation, style overrides, invalid relation rejection, revision protection, path boundaries, original-request retention, hash binding and unreviewed status. `evals/evals.json` provides seven mechanism-figure tasks for hosts with an actual image-generation tool.
 
-Earlier image evaluation generated 19 versions across seven topics, three initial baselines, targeted repairs and a new-mechanism test. These results informed the rules; they do not establish consistent first-draw superiority over ordinary prompts. The subsequently added uppercase subpanel-label default was checked in prompt compilation and helper tests without regenerating the complete image set. This repository shares two selected generated examples; private review workspaces and manuscript materials are not included.
+Earlier image evaluation generated 19 versions across seven topics, three initial baselines, targeted repairs and a new-mechanism test. These results informed the rules; they do not establish consistent first-draw superiority over ordinary prompts. The subsequently added uppercase subpanel-label default was checked in prompt compilation and helper tests without regenerating the complete image set. This repository shares three selected examples; private review workspaces and manuscript materials are not included.
 
 ### Repository guide
 

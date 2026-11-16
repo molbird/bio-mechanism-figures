@@ -10,6 +10,15 @@
       "kind": "AI-generated concept illustration with targeted repairs"
     },
     {
+      "file": "iron-homeostasis-lipid-defenses.png",
+      "title_en": "Iron homeostasis and lipid defenses",
+      "title_zh": "铁稳态与脂质防御",
+      "sha256": "8c75a4f8df73b0ccfb91cb94aaf49866e354e5fa35a4cecd7cf75615269b65fc",
+      "source_sha256": "8c75a4f8df73b0ccfb91cb94aaf49866e354e5fa35a4cecd7cf75615269b65fc",
+      "kind": "User-supplied concept illustration",
+      "source": "User-provided PNG attachment"
+    },
+    {
       "file": "dfo-nanodelivery.png",
       "title_en": "DFO coordination and nanodelivery",
       "title_zh": "DFO 配位与纳米递送",
@@ -18,5 +27,5 @@
       "kind": "AI-generated concept illustration with targeted repairs"
     }
   ],
-  "note": "Selected from earlier generation-and-repair evaluation; original image bytes and panel markers retained."
+  "note": "Three selected examples in README order; original image bytes and panel markers retained."
 }
